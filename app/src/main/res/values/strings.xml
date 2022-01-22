@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fashion Style</string>
+    <string name="frontdescription">Fashion Shop</string>
+    <string name="front">life is too short to wear boring clothes</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="button_next">Next</string>
+    <string name="button_cancel">Exit</string>
+    <string name="password_error">Password must contain at least 6 characters</string>
+    <string name="clothes_title">Title</string>
+    <string name="clothes_description">Description</string>
+    <!--backdrop -->
+    <string name="backdrop_menu_category_label">Category</string>
+    <string name="backdrop_menu_featured_label">Featured</string>
+    <string name="backdrop_menu_accessories_label">Accessories</string>
+    <string name="backdrop_menu_woman_label">Woman</string>
+    <string name="backdrop_menu_men_label">Men</string>
+    <string name="backdrop_menu_account_label">Account</string>
+</resources>

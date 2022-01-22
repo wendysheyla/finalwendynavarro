@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/wendy/AndroidStudioProjects/Wendyec3/app/src/main/res/drawable/clothes_shape.xml" value="0.1" />
+        <entry key="..\:/Users/wendy/AndroidStudioProjects/Wendyec3/app/src/main/res/drawable/diseno_boton_next.xml" value="0.1" />
+        <entry key="..\:/Users/wendy/AndroidStudioProjects/Wendyec3/app/src/main/res/layout/activity_main.xml" value="0.1636271529888551" />
+        <entry key="..\:/Users/wendy/AndroidStudioProjects/Wendyec3/app/src/main/res/layout/backdrop.xml" value="0.1" />
+        <entry key="..\:/Users/wendy/AndroidStudioProjects/Wendyec3/app/src/main/res/layout/clothes_card.xml" value="0.1" />
+        <entry key="..\:/Users/wendy/AndroidStudioProjects/Wendyec3/app/src/main/res/layout/clothes_grid.xml" value="0.1" />
+        <entry key="..\:/Users/wendy/AndroidStudioProjects/Wendyec3/app/src/main/res/layout/front_wendy.xml" value="0.1" />
+        <entry key="..\:/Users/wendy/AndroidStudioProjects/Wendyec3/app/src/main/res/menu/botom_navigation.xml" value="0.15462962962962962" />
+        <entry key="..\:/Users/wendy/AndroidStudioProjects/Wendyec3/app/src/main/res/menu/boton_navigation.xml" value="0.1" />
+        <entry key="..\:/Users/wendy/AndroidStudioProjects/Wendyec3/app/src/main/res/menu/toolbar_menu.xml" value="0.1" />
+        <entry key="..\:/Users/wendy/Desktop/Wendyec3/app/src/main/res/layout/activity_camara.xml" value="0.13148148148148148" />
+        <entry key="..\:/Users/wendy/Desktop/Wendyec3/app/src/main/res/layout/activity_camara2.xml" value="0.3255208333333333" />
+        <entry key="..\:/Users/wendy/Desktop/Wendyec3/app/src/main/res/layout/activity_main.xml" value="0.296875" />
+        <entry key="..\:/Users/wendy/Desktop/Wendyec3/app/src/main/res/layout/activity_main2.xml" value="0.1984375" />
+        <entry key="..\:/Users/wendy/Desktop/Wendyec3/app/src/main/res/layout/backdropclothes.xml" value="0.10555555555555556" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
