@@ -4,12 +4,14 @@
 
     <com.google.android.material.button.MaterialButton
         style="@style/Widget.Wendyec3.Button.Text"
+        android:id="@+id/button_featured"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/backdrop_menu_featured_label"
         />
     <com.google.android.material.button.MaterialButton
         style="@style/Widget.Wendyec3.Button.Text"
+        android:id="@+id/button_category"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/backdrop_menu_category_label"

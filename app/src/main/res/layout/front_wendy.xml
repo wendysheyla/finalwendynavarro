@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/front"
+    android:background="@color/white"
     tools:context=".FrontWendy"
     >
 
@@ -14,36 +14,94 @@
         android:clipChildren="false"
         android:clipToPadding="false"
         android:orientation="vertical"
-        android:padding="70dp"
+        android:padding="24dp"
         android:paddingTop="16dp"
         android:layout_marginTop="0dp"
         >
-        <TextView
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="250dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/frontdescription"
-            android:textAllCaps="true"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/gray"
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/app_bar"
+                style="@style/Widget.Wendyec3.Toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                app:navigationIcon="@drawable/menu_2"
+                app:title="@string/app_name"
+                app:titleTextColor="@color/black"
+                />
 
+        </com.google.android.material.appbar.AppBarLayout>
 
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:background="@drawable/collection"
+
+            android:layout_marginTop="15dp"
             />
+
         <TextView
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:text="SALE"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/portada"
+
+                android:layout_marginTop="15dp"
+                />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:text="NEW"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="@drawable/autum"
+
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginBottom="4dp"
             android:layout_marginTop="15dp"
-            android:text="@string/front"
+            android:text="SUMMER"
             android:textAllCaps="true"
             android:textSize="20dp"
             android:textStyle="bold"
-            android:textColor="@color/gray"
+            android:textColor="@color/black"
 
+
+            />
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="@drawable/summer"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="50dp"
             />
 
         <RelativeLayout
@@ -68,7 +126,7 @@
             android:layout_width="390dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="10dp"
             android:src="@drawable/icon"/>
     </LinearLayout>
 </ScrollView>

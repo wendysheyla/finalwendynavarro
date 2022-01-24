@@ -22,7 +22,7 @@ public class FrontWendy extends Fragment {
             @Override
             public void onClick(View view){
 
-                ((NavigationHost)getActivity()).navigateTo(new ClothesGrid(),false);
+                ((NavigationHost)getActivity()).navigateTo(new ClothesGrid(),true);
 
 
             }

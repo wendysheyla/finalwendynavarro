@@ -32,6 +32,8 @@
             android:layout_height="56dp"
             app:navigationIcon="@drawable/menu_2"
             app:title="@string/app_name"
+            app:titleTextColor="@color/black"
+
             />
 
     </com.google.android.material.appbar.AppBarLayout>

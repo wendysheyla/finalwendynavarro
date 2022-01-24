@@ -57,6 +57,24 @@ public class ClothesGrid  extends Fragment {
                 getActivity().startActivity(intent);
             }
         });
+        MaterialButton buttonCategory=view.findViewById(R.id.button_category);
+        buttonCategory.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                ((NavigationHost)getActivity()).navigateTo(new FragmentListClothes(),true);
+            }
+
+        });
+        MaterialButton buttonfeatured=view.findViewById(R.id.button_featured);
+        buttonfeatured.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View vi){
+                Intent intent =new Intent(getActivity(),MainActivityPosts.class);
+                getActivity().startActivity(intent);
+            }
+        });
+
 
         return view;
     }
